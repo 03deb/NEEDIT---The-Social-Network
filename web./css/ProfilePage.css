@@ -1,0 +1,665 @@
+body{
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+}
+
+#maindiv{
+    height: 587px;
+    width: 568px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    margin: 37px 357px;
+    display: block;
+    overflow-y: scroll;
+    position: absolute;   
+}
+ 
+#maindiv::-webkit-scrollbar{
+    display: none;
+}
+
+#navbar{
+    height: 45px;
+    width: 568px;
+    margin: -8px 357px 0px;
+    background-color:#a7cafd;
+    position:fixed;
+    display: flex;
+}
+
+.navmaindiv{
+    height: 40px;
+    width: 42px;
+    background-color:transparent;
+    border-radius: 21px;
+    margin: 0px 50px 0px;
+}
+
+#notification{
+    color: black;
+    margin: 3px 0px 0px;
+    text-decoration: none;
+    font-size: 39px;
+    position: absolute
+}
+
+.glassmorphism{
+    height: 270px;
+    width: 550px;
+    margin: 8px 9px 0px;
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(2.5px);
+    border-radius: 13px;
+    display: flex;
+    position: absolute;
+    border: 1px solid ghostwhite;
+}
+
+#userinfo{
+    height: 241px;
+    width: 351px;
+    margin: 13px 15px 0px;
+    background-color: transparent;
+}
+
+#username{
+    font-size: 25px;
+    display: flex;
+    margin: 15px 24px 0px;
+    font-family: 'Rubik', sans-serif;
+}
+#location{
+    font-size: 17px;
+    margin: -25px 25px 0px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+}
+
+#birthday{
+    font-size:15px;
+    margin: 14px 25px 0px;
+    font-family: 'Rubik',sans-serif;
+    display: flex;
+}
+#userbio{
+    font-size: 15px;
+    margin: 14px 25px 0px;
+    font-family: 'Rubik',sans-serif;
+    display: flex;
+}
+
+#editbtn{
+    display: flex;
+    margin: 40px 70px 0px;
+    height: 30px;
+    width: 141px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    background-image: url("../Images/editinfo.png");
+    background-position: 17px 3px;
+    background-repeat: no-repeat;
+    background-size: 23px 23px;
+    font-size: 15px;
+    font-family: 'Rubik',sans-serif;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+
+#editbtn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#userprofile{
+    margin: 8px 0px 0px;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid ghostwhite;
+}
+#userprofile img{
+    width: 140px;
+    height: 140px;
+}
+/*#userfollow{
+    height: 19px;
+    width: 135px;
+    position: absolute;
+    top: 182px;
+    left: 369px;
+    background-color: transparent;
+
+}*/
+
+#middlediv{
+    height: 31px;
+    width: 545px;
+    background-color: transparent;
+    position: absolute;
+    top: 294px;
+    left: 12px;
+    font-family: 'Rubik',sans-serif;
+    font-size: 16px;
+    display: flex;
+}
+.a1{
+    height: 31px;
+    width: 96px;
+    margin: 0px 45px 0px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.a1 a{
+    text-decoration: none;
+    color: black;
+}
+
+/* SIDE NAVIGATION BAR CODE START FROM HERE */
+.sidebar {
+    height: 531%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 569px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%), 0px 8px 16px rgb(0 0 0 / 10%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+    display: block;
+    overflow-y: scroll;
+    border-radius: 0px 20px 20px 0px;
+    border: 1px solid ghostwhite;
+  }
+
+.sidebar::-webkit-scrollbar{
+    display: none;
+}
+  
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Rubik',sans-serif;
+}
+  
+.sidebar .closebtn {
+    position: absolute;
+    top: -8px;
+    right: 191px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+  
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+/*END HERE */
+
+.mypost{
+    height: auto;
+    width: 480px;
+    background-color: transparent;
+    position: relative;
+    margin: 0px 0px 13px; 
+    top: 338px;
+    left: 44px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#myname{
+    height: 40px;
+    width: 480px;
+    background-color: transparent; 
+    border-bottom: 1px solid black;
+}
+
+#mynameuserprofile{
+    margin: 0px 4px 0px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    border: 0px solid #9890e3;
+}
+#mynameuserprofile img{
+    width: 40px;
+    height: 40px;
+}
+#myname1{
+    font-size: 17px;
+    font-family: 'Rubik',sans-serif;
+    position: absolute;
+    left: 52px;
+    top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#infoofmycontent{
+    height: auto;
+    width: 480px;
+}
+
+.show-read-more .more-text{
+    display: none;
+}
+
+#mycontent{
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+   /* font-weight: bold;*/
+    margin: 10px 22px 7px;
+    overflow: hidden;
+}
+
+#mycontent p a{
+    color: black;
+}
+
+#myphoto{
+    height: 300px;
+    width: 480px;
+    overflow: hidden;
+
+}
+
+#myphoto img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#reactionpost{
+    height: 58px;
+    width: 480px;
+    border-top: 1px solid black;
+}
+
+#aboutimage{
+    color: black;
+    font-size: 15px;
+    font-family: 'Rubik',sans-serif;
+    
+}
+
+#bolt{
+    font-size: 31px;
+    position: absolute;
+    left: -28px;
+    bottom:  -6px;
+}
+
+#sendto{
+    font-size: 28px;
+    position: absolute;
+    left: 120px;
+    bottom: 13px;
+}
+
+#sendto:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+#menu{
+    font-size: 28px;
+    position: absolute;
+    left: 178px;
+    bottom: 13px;
+    cursor: pointer;
+}
+
+#btn{
+    font-size: 15px;
+    position: absolute;
+    top: 362px;
+    left: 67px;
+    border: none;
+    background: transparent;
+    font-family: 'Rubik',sans-serif;
+}
+
+.like_btn {
+    background: transparent;
+    font-size: 18px;
+    font-family: 'Rubik',sans-serif;
+    cursor: pointer;
+    position: absolute;
+    left: 76px;
+    bottom: 16px;
+    border: none;
+}
+
+#myDIV {
+    width: 26%;
+    height: 115px;
+    position: absolute;
+    bottom: 0;
+    left: 203px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(2.5px);
+    border-radius: 5px;
+    display: none;
+}
+#sharebtn{
+    font-size: 17px;
+    font-family: 'Rubik',sans-serif;
+    display: inline-flex;
+    padding: 8px 24px;
+
+}
+
+#sendmsgto{
+    height: 223px;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(2.5px);
+    border-radius: 5px;
+    display: none;
+    overflow: scroll;
+}
+
+#sendmsgto::-webkit-scrollbar{
+    display: none;
+}
+
+#maindivofsend{
+    height: 49px;
+    width: 240px;
+    background-color: transparent;
+    position: relative;
+    margin: 10px 0px 0px;
+    border-bottom: 1px solid;
+}
+#sendprfl{
+    height: 39px;
+    width: 39px;
+    position: relative;
+    top: 0px;
+    left: 8px;
+    border-radius: 50%;
+    overflow: hidden;
+   /* border: 1px solid greenyellow; */
+}
+
+#sendprfl img{
+    height: 39px;
+    width: 39px;
+}
+
+#sendprflname{
+    font-size: 17px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color: black;
+    top: 11px;
+    left: 57px;
+    overflow: hidden;
+    width: 125px;
+    height: 23px;
+    white-space: nowrap;
+}
+
+#sendsmtbtn{
+    height: 41px;
+    width: 45px;
+    position: absolute;
+    top: 6px;
+    left: 182px;
+    font-size: 23px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.container-loader{
+    position: absolute;
+    top: 337px;
+    left: 284px;
+}
+
+#label-name{
+    position: absolute;
+    top: 12px;
+    left: 45px;
+    font-family: 'Rubik',sans-serif;
+    font-size: 15px;
+}
+
+#show-post-time{
+    position: absolute;
+    left: 293px;
+    height: 53px;
+    width: 174px;
+    cursor: default;
+    
+    /*background-color: yellow;*/
+}
+
+#show-post-time p{
+    font-family: 'Rubik',sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top: 22px
+}
+
+
+/* REQUEST SIDE NAV CODE START FROM HERE */
+
+#ofrl{
+    color: black;
+    position: absolute;
+    top: 201px;
+    left: 387px;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.rsidenavb{ 
+    height: 59%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 65px;
+    left: 934px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%), 0px 8px 16px rgb(0 0 0 / 10%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: block;
+    overflow-y: scroll;
+    border-radius: 0px 20px 20px 0px;
+    border: 1px solid ghostwhite;
+}
+
+.rsidenavb::-webkit-scrollbar{
+    display: none;
+}
+
+.rsidenavb a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Rubik',sans-serif;
+}
+
+.rsidenavb .closebtnsn{
+    position: absolute;
+    top: -8px;
+    right: 204px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .rsidenavb {padding-top: 15px;}
+    .rsidenavb a {font-size: 18px;}
+}
+
+#rqstlst{
+    height: 60px;
+    width: 230px;
+    background-color: #BDF6FE;
+    position: relative;
+    top: 50px;
+    left: 10px;
+    border-radius: 8px;
+    border: 1px solid floralwhite;
+    margin-top: 4px;
+}
+
+#rqstusrprfl{
+    height: 49px;
+    width: 50px;
+    background-color: white;
+    position: relative;
+    float: right;
+    top: 5px;
+    right: 5px;
+    border-radius: 30px;
+    border: 1px solid #9890e3;
+}
+
+#rqstusrprfl img{
+    height: 49px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+#rqstusrname{
+    font-size: 15px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: bold;
+    margin: -2px -20px 0px;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 105px;
+}
+
+#flul{
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    top: 25px;
+    left: 11px;
+    width: 150px;
+    height: 21px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#fluls{
+    font-size: 18px;
+    position: absolute;
+    top: 8px;
+    left: 129px;
+    color: #c38b44;
+}
+
+
+
+
+
+/* END HERE */
+
+/* Edit Info Css Code Start from here
+
+.overlay {
+  height: 531%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 569px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%), 0px 8px 16px rgb(0 0 0 / 10%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+    display: block;
+    overflow-y: scroll;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+*/
+
+
+

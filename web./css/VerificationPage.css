@@ -1,0 +1,101 @@
+.a1{
+    font-family: "Lamo",sans-serif;
+    background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+    margin-left: 735px;
+    margin-top: -500px;
+    height: 580px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,.1),0px 8px 16px rgba(0,0,0,.1);
+    position: scroll;
+    cursor: default;
+}
+
+.a3{
+    text-align: center;
+    padding-top: 35px;
+    font-family: 'Pacifico', cursive;
+}
+
+.a2{
+    padding-top: 30px;
+    font-size: 15px;
+    padding-left: 125px;
+}
+
+.outline{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-radius: 5px;
+    height: 30px;
+    width: 246px;
+    background: transparent;
+    color: black;
+    font-size: 16px;
+}
+
+.outline:focus{
+    outline: none;
+}
+
+.nextbtn{
+    color: black;
+    background:transparent;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'rubik',sans-serif;
+    height: 40px;
+    width: 110px;
+    margin-left: 195px;
+    border-style: solid;
+    transition: all .2s ease-in-out; 
+} 
+.nextbtn:hover{
+    background-color:#FFC5CB;
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+ 
+.a4{
+    font-family:"LATO",sans-serif ;
+    color:black ;
+    margin-top: 230px;
+    margin-left: 60px;
+    height: 280px;
+    width: 600px;
+    background:transparent;
+    font-size: 20px;
+    background-image: url("../images/share1.gif");
+    background-size: 300px 330px;
+    background-position: 320px -60px;
+    background-repeat: no-repeat;
+    cursor: default;
+}
+
+.a4 h1{
+    font-family: 'Titillium Web', sans-serif;
+    padding-left: 60px;
+    font-size: 37px;
+}
+.a4 p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    padding-left: 60px;
+}
+
+.a5{
+    font-family:'Montserrat', sans-serif ;
+    font-size: 17px;
+    padding-left: 21px;
+
+}
+
+.a6{
+    padding-top: 20px;
+    text-align: center;
+    font-family:'Bebas Neue', cursive; 
+    font-size: 30px;
+
+}

@@ -1,0 +1,317 @@
+body{
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+}
+
+#maindiv{
+    height: 532px;
+    width: 568px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    margin: 96px 357px;
+    display: block;
+    overflow-y: scroll;
+    position: fixed;
+}
+
+#maindiv::-webkit-scrollbar{
+    display: none;
+}
+
+#navbar{
+    height: 45px;
+    width: 568px;
+    margin: -8px 357px 0px;
+    background-color:#a7cafd;
+    position:fixed;
+    display: flex;
+}
+
+.navmaindiv{
+    height: 40px;
+    width: 42px;
+    background-color:transparent;
+    border-radius: 21px;
+    margin: 0px 50px 0px;
+}
+
+#notification{
+    color: black;
+    margin: 3px 0px 0px;
+    text-decoration: none;
+    font-size: 39px;
+    position: absolute
+}
+
+.header{
+    height: 59px;
+    width: 568px;
+    position: fixed;
+    top: 45px;
+    left: 365px;
+    background-color: #0F9B8E;
+}
+
+input{
+    text-align: start;
+    height: 31px;
+    width: 380px;
+    margin: 13px 32px 0px;
+    border-radius: 19px;
+    padding: 0px 20px;
+    font-size: 16px;
+    font-family: 'Rubik',sans-serif;
+    border: none;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+} 
+
+#a1{
+    position: unset;
+}
+
+button{
+    height: 33px;
+    width: 37px;
+    font-size: 21px;
+    margin: 0px -26px 0px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#usrgrp{
+    color: black;
+    top: 16px;
+    right: 56px;
+    text-decoration: none;
+    font-size: 28px;
+    position: absolute;
+}
+
+#usrfrddiv{
+    height: 83px;
+    width: 500px;
+    background-color: #BDF6FE;
+    border-radius: 10px;
+    top: 70;
+    /*position: absolute; */
+    margin: 4px 33px 0px;
+    border: 1px solid darkturquoise;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+#usrfrddivs{
+    height: 83px;
+    width: 500px;
+    background-color: #BDF6FE;
+    border-radius: 5px;
+    top: 97;
+    position: relative;
+    margin: 19px 33px 0px;
+}
+
+#usrprofile{
+    overflow: hidden;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    float: right;
+    margin: 1px 20px 0px;
+    border: 1px solid #9890e3;
+}
+
+#usrprofile img{
+    height: 80px;
+    width: 80px;
+}
+
+#usrname{
+    font-size: 18px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: bold;
+    margin: 4px 24px 0px;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+}
+
+#usrloction{
+    margin: 9px 24px 0px;
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#rqstbtn{
+    height: 26px;
+    width: 152px;
+    background-color: slategray;
+    margin: 12px 23px 0px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+
+}
+
+#usrname i{
+    font-size: 15px;
+    margin: 0px -4px 0px;
+    color: #0504AA;
+}
+
+/* SIDE NAVIGATION BAR CODE START FROM HERE */
+.sidebar {
+    height: 531%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 569;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+    display: block;
+    overflow-y: scroll;
+    border-radius: 0px 20px 20px 0px;
+    border: 1px solid ghostwhite;
+}
+
+.sidebar::-webkit-scrollbar{
+    display: none;
+}
+  
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Rubik',sans-serif;
+}
+  
+.sidebar .closebtn {
+    position: absolute;
+    top: -8;
+    right: 191px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+  
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+  /*END HERE */
+/* REQUEST SIDE NAV CODE START FROM HERE */
+.rqstsidenav {
+    height: 69%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 45px;
+    left: 933px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border-radius: 0px 20px 20px 0px;
+    border: 1px solid ghostwhite;
+}
+
+.rqstsidenav::-webkit-scrollbar{
+    display: none;
+}
+ 
+.rqstsidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+  
+.rqstsidenav .rqstclosebtn {
+    position: absolute;
+    top: -8;
+    right: 204px;
+    font-size: 36px;
+    margin-left: 0px;
+}
+  
+@media screen and (max-height: 450px) {
+    .rqstsidenav {padding-top: 15px;}
+    .rqstsidenav a {font-size: 18px;}
+}
+#rqstlst{
+    height: 60px;
+    width: 230px;
+    background-color: #BDF6FE;
+    margin: 7px 10px 0px;
+    border: 1px solid darkturquoise;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 6px;
+}
+
+#rqstusrprfl{
+    height: 49px;
+    width: 50px;
+    background-color: white;
+    position: relative;
+    float: right;
+    top: 5px;
+    right: 5px;
+    border-radius: 30px;
+    border: 1px solid #9890e3;
+}
+
+#rqstusrprfl img{
+    height: 49px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+#rqstusrname{
+    font-size: 15px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: bold;
+    margin: -4px -20px 0px;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+}
+
+#rqstusrightbtn{
+    height: 24px;
+    width: 98px;
+    background-color: #1bff00;
+    position: relative;
+    top: 24px;
+    left: 39px;
+    border-radius: 8px;
+    font-size: 13px;
+    color: black;
+    font-family: 'Rubik',sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+#cnclbtn{
+    top: 25px;
+    position: relative;
+    left: 94px;
+    border-radius: 25px;
+    font-size: 18px;
+    color: red;
+    border: none;
+}
+/* FLOAT SEARCH BAR CODE START FROM HERE */

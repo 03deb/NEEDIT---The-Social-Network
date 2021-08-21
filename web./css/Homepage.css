@@ -1,0 +1,132 @@
+.a1{
+    font-family: "Lamo",sans-serif;
+    background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+    position: absolute;
+    top: 21px;
+    left: 762px;
+    height: 600px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,.1),0px 8px 16px rgba(0,0,0,.1);
+    cursor: default;
+}
+
+.a2{
+    /*padding-top: 4px;*/
+    padding-left: 100px;
+}
+ 
+.signhead{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Courgette', cursive;
+}
+
+.a3{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.outline{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-radius: 5px;
+    height: 30px;
+    width: 246px;
+    background: transparent;
+    cursor: text;
+    color: black;
+    font-size: 15px;
+    font-family: "LATO",sans-serif;
+
+}
+
+.outline:focus{
+    outline: none;
+}
+
+.lock{
+    position: absolute;
+    top:364px;
+    left:321px;
+    background: transparent;
+    cursor: default;
+
+}
+
+.nextbtn{
+    color: black;
+    background:transparent;
+    border-radius: 20px;
+    font-size: 19px;
+    font-family: 'rubik',sans-serif;
+    height: 41px;
+    width: 110px;
+    margin-left: 189px;
+    border-style: solid;
+    background-image: url("../Images/next1.svg");
+    background-size: 30px 25px;
+    background-repeat: no-repeat;
+    background-position: 70px 6px;
+    text-align: left;
+    padding-left: 26px;
+    transition: all .2s ease-in-out; 
+}
+.nextbtn:hover{
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+
+.a4{
+    font-family:"LATO",sans-serif ;
+    color:black ;
+    margin-top: 230px;
+    margin-left: 60px;
+    height: 280px;
+    width: 600px;
+    background:transparent;
+    font-size: 20px;
+    background-image: url('../Images/connect.png');
+    background-size: 275px 290px;
+    background-position: 322px -55px;
+    background-repeat: no-repeat;
+    cursor:default;
+}
+ 
+#care{
+    height:10px ;
+    width:10px ;
+    position: 10px 10px;
+}
+
+.a4 h1{
+    font-family: 'Titillium Web', sans-serif;
+    padding-left: 60px;
+}
+.a4 p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 27px;
+    padding-left: 60px;
+}
+
+.lgnbtn{
+    font-family: 'Rubik',sans-serif;
+    font-size: 17px;
+    color: black;
+    position: absolute;
+    top: 556px;
+    left: 222px;
+}
+.lgnbtn:hover{
+    color: blue;
+}
+
+#loader{
+    display: none;
+    position: absolute;
+    left: 320px;
+    top: 497px;
+    
+}

@@ -1,0 +1,215 @@
+body{
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+}
+
+#maindiv{
+    height: 591px;
+    width: 568px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    margin: 45px 357px;
+    display: block;
+    overflow-y: scroll;
+    position: absolute;   
+}
+ 
+#maindiv::-webkit-scrollbar{
+    display: none;
+}
+
+#navbar{
+    height: 45px;
+    width: 568px;
+    margin: 0px 357px 0px;
+    background-color:#a7cafd;
+    position:fixed;
+    display: flex;
+}
+
+.navmaindiv{
+    height: 40px;
+    width: 42px;
+    background-color:transparent;
+    border-radius: 21px;
+    margin: 0px 50px 0px;
+}
+
+#notification{
+    color: black;
+    margin: 3px 0px 0px;
+    text-decoration: none;
+    font-size: 39px;
+    position: absolute
+}/* SIDE NAVIGATION BAR CODE START FROM HERE */
+.sidebar {
+    height: 642%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 569px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+    display: block;
+    overflow-y: scroll;
+  }
+
+.sidebar::-webkit-scrollbar{
+    display: none;
+}
+  
+.sidebar a {
+    padding: 0px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Rubik',sans-serif;
+}
+  
+.sidebar .closebtn {
+    position: absolute;
+    top: -8;
+    right: 191px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+  
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+/*END HERE */
+
+#Notifiydiv{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    height: 50px;
+    width: 530px;
+    background-color: yellow;
+}
+
+#mynamenotfyprofile{
+    margin: 5px 4px 0px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    border: 0px solid #9890e3;
+}
+#notfymsg{
+    position: absolute;
+    top: 16px;
+    left: 60px;
+}
+#notfymsg a{
+    text-decoration: none;
+    color: black;
+}
+#Notifiydiv2{
+    position: absolute;
+    top: 99px;
+    left: 20px;
+    height: 50px;
+    width: 530px;
+    background-color: yellow;
+}
+
+.col-sm{
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Rubik',sans-serif;
+}
+
+.col-sm:active{
+    background-color: blue;
+}
+.container{
+    margin-top: 5px;
+}
+
+#small-pst-div{
+    background-color: transparent;
+    height: 256px;
+    width: 237px;
+    border: 1px solid black;
+    border-radius: 4px;
+    position: relative;
+    left: 59px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%), 0px 8px 16px rgb(0 0 0 / 10%);
+}
+
+#small-pst-img{
+   /* background-color: red; */
+    height: 125px;
+    width: auto;
+    max-width: 216px;
+}
+#user-content{
+    /*background-color: blue;*/
+    height: 68px;
+    width: 220px;
+    position: absolute;
+    top: 136px;
+    left: 8px;
+    overflow: hidden;
+
+}
+#user-content p{
+    font-size: 12px;
+    font-family: 'Rubik',sans-serif;
+        
+}
+
+#post-img-size{
+    height: 127px;
+    width: 218px;
+   /* background-color: yellow; */
+    top: 6px;
+    left: 8px;
+    position: absolute;
+    border: 1px solid gray;
+}
+#footer-btn{
+    height: 39px;
+    width: 220px;
+    /*background-color: blue;*/
+    top: 209px;
+    left: 8px;
+    position: absolute;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+#footer-btn a{
+    font-family: 'Rubik',sans-serif;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    left: 80px;
+    top: 7px;
+    font-weight: bold;
+}
+#footer-btn:hover{
+    background-color: blue;
+}
+
+.rows{
+    column-gap: 1px;
+}

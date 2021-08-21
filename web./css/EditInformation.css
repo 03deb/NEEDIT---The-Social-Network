@@ -1,0 +1,83 @@
+body{
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+}
+
+#maindivs{
+    height: 622px;
+    width: 568px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    margin: 0px auto;
+    border-radius: 10px;
+    display: block;
+    overflow-x: hidden;
+    background-attachment: scroll;
+}
+
+#head{
+    height: 36px;
+    width: 113px;
+    margin: 21px 16px 0px;
+}
+
+#backnavi{
+   /* background-image: url("/images/back.png");
+    background-position: 3px -1px;
+    background-repeat: no-repeat;
+    background-size: 27px 23px;*/
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Rubik',sans-serif;
+}
+
+#userinfo{
+    text-align: center;
+    margin: 70px 70px 0px;
+    font-size: 16px;
+    font-family: 'Rubik',sans-serif;
+}
+#usercontent{
+    width: 600px;
+    font-size: 19px;
+}
+#usercontent input {
+    width: 56%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 16px;
+    clear: both;
+
+}
+#label{
+    display: table-row;
+    position: absolute;
+    margin: 3px 8px 0px;
+    color:  black;
+    font-weight: bold;
+}
+#usercontent textarea{
+    width: 56%;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 16px;
+    clear: both;
+}
+#smtbtn{
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 13px;
+    background: transparent;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all .2s ease-in-out;
+}
+#smtbtn:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+ 

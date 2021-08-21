@@ -1,0 +1,74 @@
+#head{
+    height: 36px;
+    width: 113px;
+    margin: 21px 16px 0px;
+}
+
+#backnavi{
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Rubik',sans-serif;
+}
+.myposts{
+    height: auto;
+    width: 480px;
+    background-color: transparent;
+    position: absolute;
+    top: 70px;
+    left: 44px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%), 0px 8px 16px rgb(0 0 0 / 10%);
+}
+
+#myDIVs {
+    width: 33%;
+    height: 155px;
+    position: absolute;
+    bottom: 4;
+    left: 203px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(2.5px);
+    border-radius: 5px;
+    display: none;
+    overflow-y: scroll;
+}
+
+#sharebtns{
+    font-size: 17px;
+    font-family: 'Rubik',sans-serif;
+    display: inline-flex;
+    padding: 8px 24px;
+    cursor: pointer;
+}
+
+#myDIVs::-webkit-scrollbar{
+    display: none;
+}
+
+#label-name{
+    position: absolute;
+    top: 12px;
+    left: 45px;
+    font-family: 'Rubik',sans-serif;
+    font-size: 15px;
+}
+
+#show-post-time{
+    position: absolute;
+    left: 293px;
+    height: 53px;
+    width: 174px;
+    cursor: default;
+    
+    /*background-color: yellow;*/
+}
+
+#show-post-time p{
+    font-family: 'Rubik',sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top: 22px
+}

@@ -1,0 +1,41 @@
+body{
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+}
+#maindiv{
+    height: 622px;
+    width: 568px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    margin: 0px auto;
+    border-radius: 10px;
+    display: block;
+    overflow-x: hidden;
+    background-attachment: scroll;
+}
+
+#head{
+    height: 36px;
+    width: 113px;
+    margin: 21px 16px 0px;
+    position: absolute;
+}
+
+#backnavi{
+     color: black;
+     text-decoration: none;
+     font-size: 19px;
+     font-family: 'Rubik',sans-serif;
+ }
+
+#topheading{
+    font-family: 'Rubik',sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 22px 0px 6px;
+}
+
+#bottomborder{
+    border: 1px solid #02066F;
+    
+}
+
+ 
